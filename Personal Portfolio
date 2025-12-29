@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isingoma Joshua | STEM & Robotics Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Roboto', sans-serif; }
+    body { line-height:1.6; color:#333; background:#f9f9f9; scroll-behavior:smooth; }
+    a { text-decoration:none; color:#007BFF; }
+    header, nav, section, footer { width:100%; padding:20px; }
+
+    /* Header */
+    header { background:#00509E; color:white; text-align:center; padding:50px 20px; position:relative; }
+    header h1 { font-size:2.5em; margin-bottom:10px; }
+    header p { font-size:1.1em; margin:5px 0; }
+    header img { width:140px; height:140px; border-radius:50%; border:3px solid white; margin-bottom:15px; }
+
+    /* Navigation */
+    nav { background:#003366; display:flex; justify-content:center; flex-wrap:wrap; position:sticky; top:0; z-index:100; }
+    nav a { color:white; margin:10px 15px; font-weight:bold; padding:10px; border-radius:5px; transition:0.3s; }
+    nav a.active, nav a:hover { background:#00509E; }
+
+    /* Sections */
+    section { max-width:1000px; margin:30px auto; background:white; padding:40px; border-radius:10px; box-shadow:0 2px 12px rgba(0,0,0,0.1); transition:0.5s; }
+    section.highlight { border-left: 6px solid #007BFF; }
+    h2 { color:#00509E; margin-bottom:15px; }
+
+    ul { list-style-type: disc; margin-left:20px; margin-bottom:20px; }
+
+    /* Buttons */
+    .btn { display:inline-block; background:#007BFF; color:white; padding:10px 20px; border-radius:5px; margin-top:10px; transition:0.3s; }
+    .btn:hover { background:#0056b3; }
+
+    /* Contact */
+    .contact-info p { margin:5px 0; }
+
+    /* Footer */
+    footer { text-align:center; background:#003366; color:white; padding:20px; margin-top:20px; }
+
+    /* AI visuals placeholder */
+    .ai-visuals { width:100%; max-height:300px; object-fit:cover; border-radius:8px; margin-bottom:20px; }
+
+    @media(max-width:600px){
+      nav { flex-direction:column; }
+      header h1 { font-size:2em; }
+      header img { width:120px; height:120px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="https://via.placeholder.com/140" alt="Profile Photo">
+    <h1>Isingoma Joshua</h1>
+    <p>STEM Instructor | Robotics Trainer | ICT & Web Technologies Educator</p>
+    <p>Kampala, Uganda | 0703915745 / 0786697745</p>
+    <p><a href="mailto:isingomajoshua54@gmail.com" style="color:white;">isingomajoshua54@gmail.com</a></p>
+    <p>
+      <a href="https://drive.google.com/drive/folders/1PyjExmYamI9aLFHyBwwNe8hBP0AGyvkU" target="_blank" class="btn">View Portfolio Documents</a>
+      <a href="https://drive.google.com/file/d/yourCVlink/view" target="_blank" class="btn">Download CV</a>
+    </p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about" class="nav-link">About Me</a>
+    <a href="#experience" class="nav-link">Experience</a>
+    <a href="#education" class="nav-link">Education</a>
+    <a href="#certifications" class="nav-link">Certifications</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>Professional Summary</h2>
+    <img src="https://via.placeholder.com/1000x300" alt="AI Visual 1" class="ai-visuals">
+    <p>Passionate and results-driven STEM and Robotics Instructor with over three years of hands-on teaching and facilitation experience across schools, holiday camps, and community learning environments. Experienced in learner-centered, project-based instruction, robotics fabrication, ICT integration, and competency-based assessment. Strongly aligned with Fundi Bots’ mission to accelerate science learning for African youth.</p>
+
+    <h2>Core Competencies</h2>
+    <ul>
+      <li>Robotics & STEM Instruction</li>
+      <li>Project-Based, Inquiry-Based & Problem-Based Learning</li>
+      <li>Artifact Creation & Documentation</li>
+      <li>Learner Assessment & Progress Tracking</li>
+      <li>Curriculum Support & Content Creation</li>
+      <li>Child Protection & Safety Compliance</li>
+      <li>Community & Parent Engagement</li>
+      <li>Team Collaboration & Reporting</li>
+    </ul>
+
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Robotics kits, sensors, motors, microcontrollers & basic electronics</li>
+      <li>Robot assembly, wiring, coding, testing & troubleshooting</li>
+      <li>Block-based and introductory text-based programming</li>
+      <li>Tools handling and hands-on fabrication</li>
+      <li>Google Workspace, MS Office, online learning platforms, AI-assisted tools</li>
+      <li>HTML, CSS, JavaScript</li>
+    </ul>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <img src="https://via.placeholder.com/1000x300" alt="AI Visual 2" class="ai-visuals">
+    <ul>
+      <li><strong>Robotics Instructor (Holiday Camps)</strong> – Fundi Bots Uganda, Kisaasi | Jan 2023 – Present
+        <ul>
+          <li>Teach core robotics concepts including sensors, motors, microcontrollers, and basic electronics.</li>
+          <li>Deliver hands-on instruction in robot assembly, wiring, coding, testing, and troubleshooting.</li>
+          <li>Guide learners in analytical thinking, innovation, and practical problem-solving.</li>
+          <li>Enforce safety protocols and child protection guidelines.</li>
+        </ul>
+      </li>
+      <li><strong>Supervisor / Monitor</strong> – Treasures Christian Schools, Kampala | Jan 2022 – Present
+        <ul>
+          <li>Train students to set academic goals and achieve them within projected timeframes.</li>
+          <li>Monitor academic progress and build learner confidence through mentorship.</li>
+        </ul>
+      </li>
+      <li><strong>Teacher</strong> – Success Motive High School, Bulamu (Gayaza) | Jan 2022 – Present
+        <ul>
+          <li>Teach according to curriculum and schedule; organize assessments and examinations.</li>
+          <li>Monitor academic progress and provide constructive feedback.</li>
+        </ul>
+      </li>
+      <li><strong>Director of Studies / Teacher</strong> – Midwest High School, Fort Portal | Jan 2019 – Dec 2021
+        <ul>
+          <li>Developed learning programs; supported curriculum development; coordinated examinations.</li>
+        </ul>
+      </li>
+      <li><strong>Teacher</strong> – Law and Joy Primary School, Fort Portal | Jan 2018 – Jan 2019
+        <ul>
+          <li>Delivered interactive lessons; assessed and recorded learner progress.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>Bachelor of Arts with Secondary Education – Uganda Pentecostal University (2020)</li>
+      <li>Uganda Advanced Certificate of Education (UACE) – Luzira S.S.S (2016)</li>
+      <li>Uganda Certificate of Education (UCE) – Precious College School (2014)</li>
+      <li>Primary Leaving Examination (PLE) – St. James Bbina Primary School (2009)</li>
+    </ul>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Certificate of Participation – Robotics Training Camp Instructor</li>
+      <li>Certificate in Conflict Resolution and Customer Service</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p><strong>Phone:</strong> 0703915745 / 0786697745</p>
+      <p><strong>Email:</strong> <a href="mailto:isingomajoshua54@gmail.com">isingomajoshua54@gmail.com</a></p>
+      <p><strong>Portfolio / Documents:</strong> <a href="https://drive.google.com/drive/folders/1PyjExmYamI9aLFHyBwwNe8hBP0AGyvkU" target="_blank">Google Drive Folder</a></p>
+    </div>
+    <a class="btn" href="mailto:isingomajoshua54@gmail.com">Send a Message</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Isingoma Joshua | STEM & Robotics Portfolio</p>
+  </footer>
+
+  <!-- Smooth Scroll + Section Highlight Script -->
+  <script>
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 80;
+        if(scrollY >= sectionTop) current = section.getAttribute('id');
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if(link.getAttribute('href') === '#' + current){
+          link.classList.add('active');
+        }
+      });
+
+      sections.forEach(section => {
+        section.classList.remove('highlight');
+        if(section.id === current){
+          section.classList.add('highlight');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
